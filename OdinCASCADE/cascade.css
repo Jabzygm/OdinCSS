@@ -1,0 +1,21 @@
+.parabig {
+    font-weight: bold ;
+    font-size: x-large;
+}
+.parasmall {
+    font-weight: bold;
+    font-size: small;
+}
+.thin {
+    font-weight: lighter;
+    font-size: large;
+}
+
+div.div1 {
+    font-size: large;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: smaller;
+}
