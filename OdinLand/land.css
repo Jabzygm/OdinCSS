@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.main {
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.nav:hover {
+    transition: 0.2s;
+    color: wheat;
+}
+
+.links {
+    display: flex;
+    margin-left: 500px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.links h3 {
+    font-weight: lighter;
+}
+
+.link2 {
+    margin-left: 30px;
+}
+
+.link3 {
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: royalblue;
+}
+
+.mainfo {
+    margin-left: 259px;
+    padding-bottom: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+.mainfo h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 250px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cubes {
+    display: flex;
+}
+
+.cube1 {
+    width: 100px;
+    margin: 30px;
+    height: 100px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cube2 {
+    width: 100px;
+    margin: 30px;
+    height: 100px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+
+.cube3 {
+    width: 100px;
+    margin: 30px;
+    height: 100px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+
+.cube4 {
+    width: 100px;
+    margin: 30px;
+    height: 100px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+.cubes p {
+    flex-direction: column;
+}
+.captions {
+    display: flex;
+    justify-content: space-between;
+    width: 577px;
+    color: grey;
+}
