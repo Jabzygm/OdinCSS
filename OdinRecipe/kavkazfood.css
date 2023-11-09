@@ -1,0 +1,32 @@
+.images {
+    display: flex;
+    width: auto;
+    height: 400px;
+}
+.khink {
+    width: 570px;
+}
+
+a :hover {
+    cursor: pointer;
+}
+
+@keyframes rainbowcolor {
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    55% {background-color: green;}
+    70% {background-color: blue;}
+    80% {background-color: indigo;}
+    90% {background-color: violet;}
+    100% {background-color: red;}
+}
+
+.header1 {
+    animation: rainbowcolor 2s linear;
+    animation-iteration-count: infinite;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-style: bold;
+}
